@@ -15,9 +15,6 @@
 //$frameworkPath = dirname(__FILE__) . '/vendor/yiisoft/yii2';
 
 
-if (!isset($frameworkPath)) {
-    $searchPaths = array(
-        dirname(__FILE__) . '/vendor/yiisoft/yii2',
         dirname(__FILE__) . '/../vendor/yiisoft/yii2',
     );
     foreach ($searchPaths as $path) {
