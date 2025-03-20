@@ -15,7 +15,7 @@
 //$frameworkPath = dirname(__FILE__) . '/vendor/yiisoft/yii2';
 
 
-    $searchPaths = array(
+    $searchPaths = aray(
         dirname(__FILE__) . '/vendor/yiisoft/yii2',
         dirname(__FILE__) . '/../vendor/yiisoft/yii2',
     );
